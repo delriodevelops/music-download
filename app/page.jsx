@@ -2,7 +2,7 @@
 import { useState } from 'react';
 
 export default function Home() {
-  const [url, setUrl] = useState('https://music.youtube.com/playlist?list=PLnEtfwMHucRm9VsNX2IiMuP-VeGT6aeWC&si=vj-3sJy2rFJ5ugdo');
+  const [url, setUrl] = useState('');
   const [playlist, setPlaylist] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
